@@ -17,17 +17,27 @@ const nuxtConfig: Configuration = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: `${settings.title} ${settings.titleTemplate}`,
+        content: `Facebook`,
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: settings.seoDescription,
+        content: "Recuerdo Desbloqueado 🥹💛💙❤️  / 2014",
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: settings.seoMetaImage,
+        content: "https://scontent.fppn2-1.fna.fbcdn.net/v/t15.5256-10/432462454_1183750316327676_3175705824734765867_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=f4080e&amp;_nc_ohc=f3LJjf-o7-YQ7kNvgELjs1r&amp;_nc_ht=scontent.fppn2-1.fna&amp;oh=00_AfA6XIWNQDpUpZtgatAMHsthSk3Ta65eOp1Hu5fIWE-waw&amp;oe=6639734A",
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: "https://www.facebook.com/100085507086933/videos/recuerdo-desbloqueado-%EF%B8%8F-2014/220370061167949/",
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: "Recuerdo Desbloqueado 🥹💛💙❤️  / 2014 | By L3B TVFacebook",
       },
     ],
     script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js', defer: true }],
